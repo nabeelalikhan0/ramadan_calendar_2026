@@ -3,65 +3,94 @@ import json
 import pandas as pd
 from datetime import datetime
 
+# ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="Ramadan Prayer Timetable",
+    page_title="Ramadan Prayer Timetable (IST)",
     page_icon="🌙",
     layout="wide"
 )
 
 # ---------------- LOAD DATA ----------------
-with open("clean_ramadan.json", "r", encoding="utf-8") as f:
+with open("enhanced_ramadan.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# Convert to DataFrame
-rows = []
-for d in data:
-    row = {
-        "Gregorian Date": d["gregorian_date"],
-        "Weekday": d["weekday"],
-        "Hijri Date": d["hijri_date"],
-        "Ramadan Day": int(d["ramadan_day"]),
-        **d["prayers"]
-    }
-    rows.append(row)
+df = pd.DataFrame(data)
+df["Ramadan Day"] = df["Ramadan Day"].astype(int)
 
-df = pd.DataFrame(rows)
+# ---------------- TIME CONVERSION ----------------
+IST_OFFSET = 5 * 60 + 30  # 5 hours 30 minutes
+
+
+def utc_to_ist(time_str):
+    if not time_str:
+        return ""
+    h, m = map(int, time_str.split(":"))
+    total = h * 60 + m + IST_OFFSET
+    total %= 24 * 60
+    return f"{total // 60:02d}:{total % 60:02d}"
+
+
+TIME_COLUMNS = [
+    "Sehri Ends", "Iftar Time",
+    "Fajr", "Sunrise", "Dhuhr",
+    "Asr", "Maghrib", "Isha"
+]
+
+for col in TIME_COLUMNS:
+    df[col] = df[col].apply(utc_to_ist)
 
 # ---------------- UI ----------------
-st.title("🌙 Ramadan Prayer Timetable")
-st.caption("Location based on fixed coordinates • Clean & easy to read")
+st.title("🌙 Ramadan Prayer Timetable (IST)")
+st.caption("🇮🇳 Times shown in Indian Standard Time (UTC + 5:30)")
 
-# Search by date
-search_date = st.text_input(
-    "🔍 Enter Ramadan Day or Search by Gregorian date (DD-MM-YYYY)",
-    placeholder="e.g. 18-02-2026"
+search_input = st.text_input(
+    "🔍 Search by Gregorian date (DD-MM-YYYY) or Ramadan day",
+    placeholder="e.g. 18-02-2026 or 5"
 )
 
-filtered_df = df
-if search_date:
-    filtered_df = df[df["Gregorian Date"] == search_date]
-    if filtered_df.empty:
-        try:
-            filtered_df = df[df["Ramadan Day"] == int(search_date)]
-        except ValueError:
-            filtered_df = df[df["Ramadan Day"] == 0]  # Return empty if not a valid day number
+filtered_df = df.copy()
 
-# Highlight today (optional)
-today_str = datetime.utcnow().strftime("%d-%m-%Y")
+if search_input:
+    filtered_df = df[df["Gregorian Date"] == search_input]
+
+    if filtered_df.empty and search_input.isdigit():
+        filtered_df = df[df["Ramadan Day"] == int(search_input)]
+
+# ---------------- HIGHLIGHT TODAY ----------------
+today_ist = (datetime.utcnow().timestamp() + 19800)
+today_str = datetime.utcfromtimestamp(today_ist).strftime("%d-%m-%Y")
+
 
 def highlight_today(row):
     if row["Gregorian Date"] == today_str:
-        return ["background-color: #1f2937; color: white"] * len(row)
+        return ["background-color: #065f46; color: white"] * len(row)
     return [""] * len(row)
 
-st.subheader("📅 Full Month Timings")
+# ---------------- DISPLAY ----------------
+st.subheader("📅 Full Ramadan Prayer Timings")
+
+display_columns = [
+    "Gregorian Date",
+    "Weekday",
+    "Hijri Date",
+    "Ramadan Day",
+    "Sehri Ends",
+    "Iftar Time",
+    "Fast Duration",
+    "Fajr",
+    "Sunrise",
+    "Dhuhr",
+    "Asr",
+    "Maghrib",
+    "Isha"
+]
 
 st.dataframe(
-    filtered_df.style.apply(highlight_today, axis=1),
+    filtered_df[display_columns].style.apply(highlight_today, axis=1),
     use_container_width=True,
     hide_index=True
 )
 
-# Footer
+# ---------------- FOOTER ----------------
 st.markdown("---")
-st.caption("🕌 Times shown are calculated automatically • Moon sighting may vary")
+st.caption("🕌 Times are converted from UTC to IST • Moon sighting may vary")
