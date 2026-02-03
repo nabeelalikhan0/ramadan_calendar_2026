@@ -1,0 +1,452 @@
+[
+  {
+    "gregorian_date": "18-02-2026",
+    "weekday": "Wednesday",
+    "hijri_date": "01-09-1447",
+    "ramadan_day": "1",
+    "prayers": {
+      "Imsak": "00:06",
+      "Fajr": "00:14",
+      "Sunrise": "01:37",
+      "Dhuhr": "07:15",
+      "Asr": "11:14",
+      "Maghrib": "12:43",
+      "Isha": "14:12"
+    }
+  },
+  {
+    "gregorian_date": "19-02-2026",
+    "weekday": "Thursday",
+    "hijri_date": "02-09-1447",
+    "ramadan_day": "2",
+    "prayers": {
+      "Imsak": "00:05",
+      "Fajr": "00:13",
+      "Sunrise": "01:36",
+      "Dhuhr": "07:15",
+      "Asr": "11:15",
+      "Maghrib": "12:44",
+      "Isha": "14:13"
+    }
+  },
+  {
+    "gregorian_date": "20-02-2026",
+    "weekday": "Friday",
+    "hijri_date": "03-09-1447",
+    "ramadan_day": "3",
+    "prayers": {
+      "Imsak": "00:04",
+      "Fajr": "00:12",
+      "Sunrise": "01:35",
+      "Dhuhr": "07:14",
+      "Asr": "11:16",
+      "Maghrib": "12:44",
+      "Isha": "14:14"
+    }
+  },
+  {
+    "gregorian_date": "21-02-2026",
+    "weekday": "Saturday",
+    "hijri_date": "04-09-1447",
+    "ramadan_day": "4",
+    "prayers": {
+      "Imsak": "00:03",
+      "Fajr": "00:11",
+      "Sunrise": "01:34",
+      "Dhuhr": "07:14",
+      "Asr": "11:16",
+      "Maghrib": "12:45",
+      "Isha": "14:15"
+    }
+  },
+  {
+    "gregorian_date": "22-02-2026",
+    "weekday": "Sunday",
+    "hijri_date": "05-09-1447",
+    "ramadan_day": "5",
+    "prayers": {
+      "Imsak": "00:03",
+      "Fajr": "00:11",
+      "Sunrise": "01:33",
+      "Dhuhr": "07:14",
+      "Asr": "11:17",
+      "Maghrib": "12:46",
+      "Isha": "14:15"
+    }
+  },
+  {
+    "gregorian_date": "23-02-2026",
+    "weekday": "Monday",
+    "hijri_date": "06-09-1447",
+    "ramadan_day": "6",
+    "prayers": {
+      "Imsak": "00:02",
+      "Fajr": "00:10",
+      "Sunrise": "01:32",
+      "Dhuhr": "07:14",
+      "Asr": "11:18",
+      "Maghrib": "12:47",
+      "Isha": "14:16"
+    }
+  },
+  {
+    "gregorian_date": "24-02-2026",
+    "weekday": "Tuesday",
+    "hijri_date": "07-09-1447",
+    "ramadan_day": "7",
+    "prayers": {
+      "Imsak": "00:01",
+      "Fajr": "00:09",
+      "Sunrise": "01:31",
+      "Dhuhr": "07:14",
+      "Asr": "11:18",
+      "Maghrib": "12:47",
+      "Isha": "14:17"
+    }
+  },
+  {
+    "gregorian_date": "25-02-2026",
+    "weekday": "Wednesday",
+    "hijri_date": "08-09-1447",
+    "ramadan_day": "8",
+    "prayers": {
+      "Imsak": "00:00",
+      "Fajr": "00:08",
+      "Sunrise": "01:30",
+      "Dhuhr": "07:14",
+      "Asr": "11:19",
+      "Maghrib": "12:48",
+      "Isha": "14:17"
+    }
+  },
+  {
+    "gregorian_date": "26-02-2026",
+    "weekday": "Thursday",
+    "hijri_date": "09-09-1447",
+    "ramadan_day": "9",
+    "prayers": {
+      "Imsak": "23:59",
+      "Fajr": "00:07",
+      "Sunrise": "01:29",
+      "Dhuhr": "07:14",
+      "Asr": "11:20",
+      "Maghrib": "12:49",
+      "Isha": "14:18"
+    }
+  },
+  {
+    "gregorian_date": "27-02-2026",
+    "weekday": "Friday",
+    "hijri_date": "10-09-1447",
+    "ramadan_day": "10",
+    "prayers": {
+      "Imsak": "23:58",
+      "Fajr": "00:06",
+      "Sunrise": "01:28",
+      "Dhuhr": "07:13",
+      "Asr": "11:20",
+      "Maghrib": "12:50",
+      "Isha": "14:19"
+    }
+  },
+  {
+    "gregorian_date": "28-02-2026",
+    "weekday": "Saturday",
+    "hijri_date": "11-09-1447",
+    "ramadan_day": "11",
+    "prayers": {
+      "Imsak": "23:56",
+      "Fajr": "00:04",
+      "Sunrise": "01:27",
+      "Dhuhr": "07:13",
+      "Asr": "11:21",
+      "Maghrib": "12:50",
+      "Isha": "14:19"
+    }
+  },
+  {
+    "gregorian_date": "01-03-2026",
+    "weekday": "Sunday",
+    "hijri_date": "12-09-1447",
+    "ramadan_day": "12",
+    "prayers": {
+      "Imsak": "23:55",
+      "Fajr": "00:03",
+      "Sunrise": "01:26",
+      "Dhuhr": "07:13",
+      "Asr": "11:21",
+      "Maghrib": "12:51",
+      "Isha": "14:20"
+    }
+  },
+  {
+    "gregorian_date": "02-03-2026",
+    "weekday": "Monday",
+    "hijri_date": "13-09-1447",
+    "ramadan_day": "13",
+    "prayers": {
+      "Imsak": "23:54",
+      "Fajr": "00:02",
+      "Sunrise": "01:24",
+      "Dhuhr": "07:13",
+      "Asr": "11:22",
+      "Maghrib": "12:52",
+      "Isha": "14:21"
+    }
+  },
+  {
+    "gregorian_date": "03-03-2026",
+    "weekday": "Tuesday",
+    "hijri_date": "14-09-1447",
+    "ramadan_day": "14",
+    "prayers": {
+      "Imsak": "23:53",
+      "Fajr": "00:01",
+      "Sunrise": "01:23",
+      "Dhuhr": "07:13",
+      "Asr": "11:23",
+      "Maghrib": "12:52",
+      "Isha": "14:22"
+    }
+  },
+  {
+    "gregorian_date": "04-03-2026",
+    "weekday": "Wednesday",
+    "hijri_date": "15-09-1447",
+    "ramadan_day": "15",
+    "prayers": {
+      "Imsak": "23:52",
+      "Fajr": "00:00",
+      "Sunrise": "01:22",
+      "Dhuhr": "07:12",
+      "Asr": "11:23",
+      "Maghrib": "12:53",
+      "Isha": "14:22"
+    }
+  },
+  {
+    "gregorian_date": "05-03-2026",
+    "weekday": "Thursday",
+    "hijri_date": "16-09-1447",
+    "ramadan_day": "16",
+    "prayers": {
+      "Imsak": "23:51",
+      "Fajr": "23:59",
+      "Sunrise": "01:21",
+      "Dhuhr": "07:12",
+      "Asr": "11:24",
+      "Maghrib": "12:54",
+      "Isha": "14:23"
+    }
+  },
+  {
+    "gregorian_date": "06-03-2026",
+    "weekday": "Friday",
+    "hijri_date": "17-09-1447",
+    "ramadan_day": "17",
+    "prayers": {
+      "Imsak": "23:50",
+      "Fajr": "23:58",
+      "Sunrise": "01:20",
+      "Dhuhr": "07:12",
+      "Asr": "11:24",
+      "Maghrib": "12:55",
+      "Isha": "14:24"
+    }
+  },
+  {
+    "gregorian_date": "07-03-2026",
+    "weekday": "Saturday",
+    "hijri_date": "18-09-1447",
+    "ramadan_day": "18",
+    "prayers": {
+      "Imsak": "23:49",
+      "Fajr": "23:57",
+      "Sunrise": "01:19",
+      "Dhuhr": "07:12",
+      "Asr": "11:25",
+      "Maghrib": "12:55",
+      "Isha": "14:24"
+    }
+  },
+  {
+    "gregorian_date": "08-03-2026",
+    "weekday": "Sunday",
+    "hijri_date": "19-09-1447",
+    "ramadan_day": "19",
+    "prayers": {
+      "Imsak": "23:48",
+      "Fajr": "23:56",
+      "Sunrise": "01:18",
+      "Dhuhr": "07:12",
+      "Asr": "11:25",
+      "Maghrib": "12:56",
+      "Isha": "14:25"
+    }
+  },
+  {
+    "gregorian_date": "09-03-2026",
+    "weekday": "Monday",
+    "hijri_date": "20-09-1447",
+    "ramadan_day": "20",
+    "prayers": {
+      "Imsak": "23:46",
+      "Fajr": "23:54",
+      "Sunrise": "01:16",
+      "Dhuhr": "07:11",
+      "Asr": "11:26",
+      "Maghrib": "12:57",
+      "Isha": "14:26"
+    }
+  },
+  {
+    "gregorian_date": "10-03-2026",
+    "weekday": "Tuesday",
+    "hijri_date": "21-09-1447",
+    "ramadan_day": "21",
+    "prayers": {
+      "Imsak": "23:45",
+      "Fajr": "23:53",
+      "Sunrise": "01:15",
+      "Dhuhr": "07:11",
+      "Asr": "11:26",
+      "Maghrib": "12:57",
+      "Isha": "14:26"
+    }
+  },
+  {
+    "gregorian_date": "11-03-2026",
+    "weekday": "Wednesday",
+    "hijri_date": "22-09-1447",
+    "ramadan_day": "22",
+    "prayers": {
+      "Imsak": "23:44",
+      "Fajr": "23:52",
+      "Sunrise": "01:14",
+      "Dhuhr": "07:11",
+      "Asr": "11:27",
+      "Maghrib": "12:58",
+      "Isha": "14:27"
+    }
+  },
+  {
+    "gregorian_date": "12-03-2026",
+    "weekday": "Thursday",
+    "hijri_date": "23-09-1447",
+    "ramadan_day": "23",
+    "prayers": {
+      "Imsak": "23:43",
+      "Fajr": "23:51",
+      "Sunrise": "01:13",
+      "Dhuhr": "07:10",
+      "Asr": "11:27",
+      "Maghrib": "12:59",
+      "Isha": "14:28"
+    }
+  },
+  {
+    "gregorian_date": "13-03-2026",
+    "weekday": "Friday",
+    "hijri_date": "24-09-1447",
+    "ramadan_day": "24",
+    "prayers": {
+      "Imsak": "23:42",
+      "Fajr": "23:50",
+      "Sunrise": "01:12",
+      "Dhuhr": "07:10",
+      "Asr": "11:28",
+      "Maghrib": "12:59",
+      "Isha": "14:28"
+    }
+  },
+  {
+    "gregorian_date": "14-03-2026",
+    "weekday": "Saturday",
+    "hijri_date": "25-09-1447",
+    "ramadan_day": "25",
+    "prayers": {
+      "Imsak": "23:40",
+      "Fajr": "23:48",
+      "Sunrise": "01:10",
+      "Dhuhr": "07:10",
+      "Asr": "11:28",
+      "Maghrib": "13:00",
+      "Isha": "14:29"
+    }
+  },
+  {
+    "gregorian_date": "15-03-2026",
+    "weekday": "Sunday",
+    "hijri_date": "26-09-1447",
+    "ramadan_day": "26",
+    "prayers": {
+      "Imsak": "23:39",
+      "Fajr": "23:47",
+      "Sunrise": "01:09",
+      "Dhuhr": "07:10",
+      "Asr": "11:29",
+      "Maghrib": "13:01",
+      "Isha": "14:30"
+    }
+  },
+  {
+    "gregorian_date": "16-03-2026",
+    "weekday": "Monday",
+    "hijri_date": "27-09-1447",
+    "ramadan_day": "27",
+    "prayers": {
+      "Imsak": "23:38",
+      "Fajr": "23:46",
+      "Sunrise": "01:08",
+      "Dhuhr": "07:09",
+      "Asr": "11:29",
+      "Maghrib": "13:01",
+      "Isha": "14:31"
+    }
+  },
+  {
+    "gregorian_date": "17-03-2026",
+    "weekday": "Tuesday",
+    "hijri_date": "28-09-1447",
+    "ramadan_day": "28",
+    "prayers": {
+      "Imsak": "23:36",
+      "Fajr": "23:44",
+      "Sunrise": "01:07",
+      "Dhuhr": "07:09",
+      "Asr": "11:30",
+      "Maghrib": "13:02",
+      "Isha": "14:31"
+    }
+  },
+  {
+    "gregorian_date": "18-03-2026",
+    "weekday": "Wednesday",
+    "hijri_date": "29-09-1447",
+    "ramadan_day": "29",
+    "prayers": {
+      "Imsak": "23:35",
+      "Fajr": "23:43",
+      "Sunrise": "01:05",
+      "Dhuhr": "07:09",
+      "Asr": "11:30",
+      "Maghrib": "13:03",
+      "Isha": "14:32"
+    }
+  },
+  {
+    "gregorian_date": "19-03-2026",
+    "weekday": "Thursday",
+    "hijri_date": "30-09-1447",
+    "ramadan_day": "30",
+    "prayers": {
+      "Imsak": "23:34",
+      "Fajr": "23:42",
+      "Sunrise": "01:04",
+      "Dhuhr": "07:09",
+      "Asr": "11:30",
+      "Maghrib": "13:03",
+      "Isha": "14:33"
+    }
+  }
+]
