@@ -93,4 +93,4 @@ st.dataframe(
 
 # ---------------- FOOTER ----------------
 st.markdown("---")
-st.caption("🕌 Times are converted from UTC to IST • Moon sighting may vary")
+st.caption("🕌 Times are converted from UTC to IST • Moon sighting may vary - Chandigarh University 30.764688298589768, 76.57374857699395")
