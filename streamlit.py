@@ -15,7 +15,7 @@ with open("enhanced_ramadan.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
-df["Ramadan Day"] = df["Ramadan Day"].astype(int)
+df["Ramadan Day"] = df["Ramadan Day"].astype(int) + -1
 
 # ---------------- TIME CONVERSION ----------------
 IST_OFFSET = 5 * 60 + 30  # 5 hours 30 minutes
@@ -84,6 +84,8 @@ display_columns = [
     "Maghrib",
     "Isha"
 ]
+
+
 
 st.dataframe(
     filtered_df[display_columns].style.apply(highlight_today, axis=1),
